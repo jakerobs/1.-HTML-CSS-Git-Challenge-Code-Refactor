@@ -1,3 +1,5 @@
+/* Begin Universal Section */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +9,18 @@
 body {
     background-color: #d9dcd6;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* End Universal Section */
+/* Begin Header Section */
 
 .header {
     padding: 20px;
@@ -41,14 +55,8 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
+/* End Header Section */
+/* Begin Hero Section */
 
 .hero {
     height: 800px;
@@ -58,6 +66,9 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* End Hero Section */
+/* Begin Contact Article Section */
 
 .float-left {
     float: left;
@@ -93,6 +104,9 @@ article h2 {
     font-size: 36px;
 }
 
+/* End Contact Article Section */
+/* Begin Benefits Aside Section */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -120,6 +134,9 @@ aside img {
     max-width: 150px;
 }
 
+/* End Benefits Aside Section */
+/* Begin Footer */
+
 .footer {
     padding: 30px;
     clear: both;
@@ -130,3 +147,5 @@ aside img {
 .footer h4 {
     font-size: 20px;
 }
+
+/* End Footer */
